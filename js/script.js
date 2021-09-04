@@ -1,43 +1,51 @@
 function plus() {
-    var num1, num2, result;
-
-    num1 = document.getElementById('n1').value;
-    num1 = parseInt(num1);
-
-    num2 = document.getElementById('n2').value;
-    num2 = parseInt(num2);
-
-
-    result = num1 + num2;
-    document.getElementById('otvet').innerHTML = result;
-
-}
+    let pole1=document.getElementById('n1'),
+        pole2=document.getElementById('n2'),
+        pole3=document.getElementById('otvet');
 
 
 
-function plus() {
-    var num1, num2, result;
-
-    num1 = document.getElementById('n1').value;
-    num1 = parseInt(num1);
-}
-
-function plus() {
-    var num1, num2, result;
-
-    num1 = document.getElementById('n1').value;
-    num1 = parseInt(num1);
-}
-
-
-
-
-
-
-
+    pole3.value= parseFloat(pole1.value)+parseFloat(pole2.value);
 
 
 
 
 }
+
+function minus() {
+    let pole1=document.getElementById('n1'),
+        pole2=document.getElementById('n2'),
+        pole3=document.getElementById('otvet');
+
+    pole3.value=parseFloat(pole1.value)-parseFloat(pole2.value);
+}
+
+function umnoj() {
+    let pole1=document.getElementById('n1'),
+        pole2=document.getElementById('n2'),
+        pole3=document.getElementById('otvet');
+
+    pole3.value=parseFloat(pole1.value)*parseFloat(pole2.value);
+}
+
+function delenie() {
+    let pole1=document.getElementById('n1'),
+        pole2=document.getElementById('n2'),
+        pole3=document.getElementById('otvet');
+
+    pole3.value=parseFloat(pole1.value)/parseFloat(pole2.value);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
